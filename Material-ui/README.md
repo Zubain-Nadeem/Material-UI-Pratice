@@ -1,16 +1,65 @@
-# React + Vite
+# React MUI Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository is for practicing **Material UI (MUI)** with **React**.
 
-Currently, two official plugins are available:
+I am using this repo to learn MUI step by step by exploring components, layouts, theming, and responsiveness, and pushing my daily practice to GitHub.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Material UI (MUI)
+* JavaScript
+* VS Code
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## What This Repo Contains
+
+* MUI basic components (Button, TextField, Typography, etc)
+* Layout components (Box, Grid, Stack)
+* Navigation (AppBar, Drawer)
+* Cards, Lists, Tables
+* Dialogs, Snackbars, Modals
+* Theme customization
+* Responsive UI practice
+
+Each component or concept is practiced separately and committed clearly.
+
+---
+
+## Learning Source
+
+* YouTube tutorials
+* Official Material UI documentation
+* Hands-on experimentation
+
+---
+
+## How I Practice
+
+1. Learn one MUI concept
+2. Implement it in VS Code
+3. Test variations
+4. Commit changes to GitHub
+
+---
+
+## Goal
+
+* Get comfortable with Material UI
+* Build clean and reusable UI components
+* Prepare for real-world React projects
+
+---
+
+## Status
+
+🚧 Ongoing learning and practice
+
+---
+
+Feel free to explore, fork, or suggest improvements.
+
+Happy coding 🚀
