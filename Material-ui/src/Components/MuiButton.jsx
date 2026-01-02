@@ -1,5 +1,5 @@
 import React from 'react'
-import { Stack, Button, IconButton } from '@mui/material'
+import { Stack, Button, IconButton, ButtonGroup } from '@mui/material'
 import SendIcon from '@mui/icons-material/Send';
 import DeleteIcon from '@mui/icons-material/Delete';
 
@@ -42,6 +42,24 @@ const MuiButton = () => {
                 <IconButton aria-label='send' color='secondary'>
                     <SendIcon fontSize='large' />
                 </IconButton>
+            </Stack>
+
+            <Stack direction={'row'} spacing={2}>
+                <ButtonGroup variant='contained' color='success' orientation='vertical' disableElevation aria-label='Basic Button Group' size='small'>
+                    <Button>Left</Button>
+                    <Button color='warning'>Center</Button>
+                    <Button>Right</Button>
+                </ButtonGroup>
+                <ButtonGroup variant='contained' color='success' orientation='vertical' disableElevation aria-label='Basic Button Group' size='medium'>
+                    <Button>Left</Button>
+                    <Button color='warning'>Center</Button>
+                    <Button>Right</Button>
+                </ButtonGroup>
+                <ButtonGroup variant='contained' color='success' orientation='vertical' disableElevation aria-label='Basic Button Group' size='large'>
+                    <Button>Left</Button>
+                    <Button color='warning'>Center</Button>
+                    <Button>Right</Button>
+                </ButtonGroup>
             </Stack>
         </Stack>
     )
