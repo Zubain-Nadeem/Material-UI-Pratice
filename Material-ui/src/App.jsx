@@ -1,10 +1,11 @@
 import React from 'react'
-import Typography from './Components/Typography'
+import MuiTypography from './Components/MuiTypography'
+
 
 const App = () => {
   return (
     <div>
-      <Typography />
+      <MuiTypography />
     </div>
   )
 }
