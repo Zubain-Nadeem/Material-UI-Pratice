@@ -17,7 +17,19 @@ const MuiButton = () => {
     if (currentVal !== null) {
       setFormate(currentVal);
     }
-    console.log(currentVal);
+    switch (currentVal) {
+        case 'web':
+            console.log(`website`);
+            break;
+        case 'android':
+            console.log(`android Mobile`);
+            break;
+        case 'ios':
+            console.log(`hello`);
+        default:
+            break;
+    }
+
   };
   return (
     <Stack spacing={4}>
@@ -129,6 +141,7 @@ const MuiButton = () => {
           aria-label="Platform"
           onChange={handleChange}
           value={formate}
+          orientation="vertical"
         >
           <ToggleButton value="web">Web</ToggleButton>
           <ToggleButton value="android">Android</ToggleButton>
