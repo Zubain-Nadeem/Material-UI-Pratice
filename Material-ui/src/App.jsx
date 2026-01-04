@@ -1,13 +1,15 @@
 import React from 'react'
 import MuiTypography from './Components/MuiTypography'
 import MuiButton from './Components/MuiButton'
+import MuiTextField from './Components/MuiTextField'
 
 
 const App = () => {
   return (
     <div>
       {/* <MuiTypography /> */}
-      <MuiButton />
+      {/* <MuiButton /> */}
+      <MuiTextField />
     </div>
   )
 }
